@@ -1,7 +1,7 @@
 var uniqueRandomArray = require('unique-random-array');
 var muslimNames = require('../muslim-names.json');
 
-module.export = {
+module.exports = {
     all:muslimNames,
     random:uniqueRandomArray(muslimNames)
 }
